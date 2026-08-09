@@ -17,6 +17,7 @@ exe = EXE(
     exclude_binaries=True,
     name='LURE',
     console=False,
+    icon='../ASSETS/icon/icon.ico',
 )
 
 coll = COLLECT(
