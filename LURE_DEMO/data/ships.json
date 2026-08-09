@@ -1,0 +1,101 @@
+{
+  "ships": [
+    {
+      "id": "rustwing",
+      "name": "Rustwing",
+      "preview": "rust_wing_prev.png",
+      "sprite": "rustwing.png",
+      "cost": 0,
+      "owned_by_default": true,
+      "stats": {
+        "health": 45, "armor": 30, "shield": 40, "speed": 75,
+        "agility": 85, "firepower": 35, "energy": 60, "cargo": 20
+      }
+    },
+    {
+      "id": "viper_x",
+      "name": "Viper X",
+      "preview": "viper_x_prev.png",
+      "sprite": "viperx.png",
+      "cost": 500,
+      "owned_by_default": false,
+      "stats": {
+        "health": 60, "armor": 55, "shield": 65, "speed": 90,
+        "agility": 95, "firepower": 70, "energy": 75, "cargo": 15
+      }
+    },
+    {
+      "id": "nova_phantom",
+      "name": "Nova Phantom",
+      "preview": "nova_phantom_prev.png",
+      "sprite": "nova_phantom.png",
+      "cost": 900,
+      "owned_by_default": false,
+      "stats": {
+        "health": 65, "armor": 60, "shield": 90, "speed": 80,
+        "agility": 88, "firepower": 75, "energy": 95, "cargo": 25
+      }
+    },
+    {
+      "id": "ironclad_hauler",
+      "name": "Ironclad Hauler",
+      "preview": "ironclad_hauler_prev.png",
+      "sprite": "ironclad_hauler.png",
+      "cost": 1200,
+      "owned_by_default": false,
+      "stats": {
+        "health": 100, "armor": 100, "shield": 60, "speed": 25,
+        "agility": 20, "firepower": 80, "energy": 70, "cargo": 100
+      }
+    },
+    {
+      "id": "titan_maw",
+      "name": "Titan Maw",
+      "preview": "titan_maw_prev.png",
+      "sprite": "titan_maw.png",
+      "cost": 1800,
+      "owned_by_default": false,
+      "stats": {
+        "health": 95, "armor": 95, "shield": 85, "speed": 40,
+        "agility": 35, "firepower": 100, "energy": 90, "cargo": 45
+      }
+    },
+    {
+      "id": "solar_drake",
+      "name": "Solar Drake",
+      "preview": "solar_drake_prev.png",
+      "sprite": "solar_drake.png",
+      "cost": 2200,
+      "owned_by_default": false,
+      "stats": {
+        "health": 55, "armor": 45, "shield": 95, "speed": 98,
+        "agility": 100, "firepower": 65, "energy": 100, "cargo": 15
+      }
+    },
+    {
+      "id": "nebula_reaper",
+      "name": "Nebula Reaper",
+      "preview": "nebula_reaper_prev.png",
+      "sprite": "nebula_reaper.png",
+      "cost": 2800,
+      "owned_by_default": false,
+      "stats": {
+        "health": 75, "armor": 70, "shield": 80, "speed": 85,
+        "agility": 80, "firepower": 90, "energy": 85, "cargo": 30
+      }
+    },
+    {
+      "id": "eclipse_sovereign",
+      "name": "Eclipse Sovereign",
+      "preview": "eclipse_sovereign_prev.png",
+      "sprite": "eclipse_sovereign.png",
+      "cost": 5000,
+      "owned_by_default": false,
+      "is_ultimate": true,
+      "stats": {
+        "health": 100, "armor": 100, "shield": 100, "speed": 100,
+        "agility": 100, "firepower": 100, "energy": 100, "cargo": 100
+      }
+    }
+  ]
+}

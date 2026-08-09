@@ -1,0 +1,28 @@
+{
+  "gold": 100,
+  "diamonds": 200,
+  "settings": {
+    "brightness": 1.0,
+    "volume": 1.0,
+    "platform_mode": "mobile",
+    "keybinds": {
+      "move_left": "a",
+      "move_right": "d",
+      "move_up": "w",
+      "move_down": "s",
+      "shoot": "spacebar",
+      "bomb": "e",
+      "pause": "escape"
+    },
+    "sfx_volume": 0.5329151558420836
+  },
+  "daily_reward": {
+    "last_claimed": 1786236041.8701937
+  },
+  "tasks": {},
+  "equipped_ship": "rustwing",
+  "owned_ships": [
+    "rustwing"
+  ],
+  "ship_upgrades": {}
+}

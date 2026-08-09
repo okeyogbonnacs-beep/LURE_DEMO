@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.kivy/logs/
+build/
+dist/
+*.spec.bak
