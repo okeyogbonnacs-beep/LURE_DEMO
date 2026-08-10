@@ -48,7 +48,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: LURE-Windows
-          path: LURE_DEMO/dist/LURE
+          path: LURE_DEMO/dist/LURE.exe
 
       - name: Upload build logs on failure
         if: failure()
