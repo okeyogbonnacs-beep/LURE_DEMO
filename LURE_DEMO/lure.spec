@@ -13,15 +13,9 @@ a = Analysis(
 pyz = PYZ(a.pure)
 
 exe = EXE(
-    pyz, a.scripts, [],
-    exclude_binaries=True,
+    pyz, a.scripts, a.binaries, a.zipfiles, a.datas,
+    *[Tree(p) for p in (sdl2.dep_bins + glew.dep_bins)],
     name='LURE',
     console=False,
     icon='../ASSETS/icon/icon.ico',
-)
-
-coll = COLLECT(
-    exe, a.binaries, a.zipfiles, a.datas,
-    *[Tree(p) for p in (sdl2.dep_bins + glew.dep_bins)],
-    name='LURE',
 )
